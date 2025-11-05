@@ -4,6 +4,16 @@
   font-weight: 400;
   place-content: center;
   min-height: 100vh;
-  background-color: rgb(70, 70, 70);
+  background-color: rgb(235, 235, 235);
 
+}
+
+.titulo h1 {
+  text-align: center;
+  margin: 40px 0;
+  margin: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 85px;
+  color: #111;
+  font-weight: 600;
 }
