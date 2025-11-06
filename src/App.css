@@ -7,6 +7,6 @@
 .ListaCartas{
   display: flex;
   flex-direction: row;
-  gap: 2vw;
+  gap: 2vw;/* Espacio entre cartas * /
 
 }
