@@ -26,6 +26,11 @@ export default function Carta({
                 <div>
                     <Texto conteudo={nome} classe='Nome' tamanho='grande' alinhamento={alinhanome} />
                 </div>
+
+                <div className='imagem'>
+                    
+                </div>
+
                 <div>
                     <Texto conteudo={descricao} classe='desc' tamanho={tamanho} alinhamento={alinhadescricao} />
                 </div>
