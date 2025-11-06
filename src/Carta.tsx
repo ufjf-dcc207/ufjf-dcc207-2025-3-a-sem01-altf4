@@ -24,12 +24,12 @@ export default function Carta({
 
                 <Texto conteudo={nome} classe='Nome' tamanho='grande' alinhamento={alinhanome} />
 
-                    <Imagem imagem={imagemUrl} espelhado={espelharImagem} colorido={corImagem} girado={girarImagem} />
+                <Imagem imagem={imagemUrl} espelhado={espelharImagem} colorido={corImagem} girado={girarImagem} />
 
                 <Texto conteudo={descricao} classe='desc' tamanho={tamanho} alinhamento={alinhadescricao} />
               
-                <div className='ataque'>{ataque}</div>
-                <div className='defesa'>{defesa}</div>
+                <div className='ataque'>ATK/{ataque}</div>
+                <div className='defesa'>DEF/{defesa}</div>
             </div>
         </div>
     )

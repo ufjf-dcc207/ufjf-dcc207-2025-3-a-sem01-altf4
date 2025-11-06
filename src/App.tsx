@@ -7,9 +7,9 @@ function App() {
   return (
     <>
       <div className='ListaCartas'>
-        {todasCartas.map((carta, index) => (
+        {todasCartas.map((carta) =>(
           <Carta 
-            key={index}
+            key={carta.serial}
             nome={carta.nome}
             ataque={carta.ataque}
             defesa={carta.defesa}

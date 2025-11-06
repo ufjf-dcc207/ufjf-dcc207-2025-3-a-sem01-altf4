@@ -12,7 +12,7 @@ export default function Texto({
     classe = 'desc',
 }: TextoProps) {
     const estilos: React.CSSProperties = {
-        fontSize: tamanho === 'pequeno' ? '16px' : tamanho === 'grande' ? '25px' : '20px',
+        fontSize: tamanho === 'pequeno' ? 'clamp(9px, 2vw , 11px)' : tamanho === 'grande' ? classe === 'desc' ? 'clamp(15px, 2vw , 18px)' :'clamp(19px, 2vw , 25px)' : 'clamp(13px,2vw, 15px)',
         textAlign: alinhamento === 'esquerda' ? 'left' : alinhamento === 'direita' ? 'right' : 'center',
     };
 
