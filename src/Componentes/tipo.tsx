@@ -1,5 +1,5 @@
 interface TipoProps{
-    tipo?: string;
+     tipo?: string;
 }
 
 export default function Tipo({

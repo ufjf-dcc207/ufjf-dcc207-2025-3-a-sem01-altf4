@@ -16,7 +16,7 @@ export default function Carta({
     ataque=1000,
     defesa=1000,
     descricao='',
-    tamanho='pequena',
+    tamanho='media',
     imagemUrl = '',
     corImagem = true,
     espelharImagem = false,
