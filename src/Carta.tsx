@@ -14,6 +14,10 @@ export default function Carta({
     descricao=''}: CartaProps){
     return (
         <div className="carta">
+<<<<<<< HEAD
+=======
+            {/*se possivel fazer interação de ao clicar mostrar a capa da carta*/}
+>>>>>>> 8b95e437903c4e09bb376c2a6c83964886de329d
             <div className="frente">
                 <div className='Nome'>{nome}</div>
                 <div className='desc'>{descricao}</div>
