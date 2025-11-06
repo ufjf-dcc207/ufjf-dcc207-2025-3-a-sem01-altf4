@@ -23,12 +23,14 @@
 }
 .Repartedor .Nome {
     position: absolute;
+    font-family: 'NomeCarta', sans-serif;
     width: 78%;
     top: 3%;
     margin-left: 12%;
 }
 
 .Repartedor .desc {
+    font-family: 'DescCarta', serif;
    position: absolute;
     top: 75.5%;
     height: 15%;
@@ -42,12 +44,14 @@
 }
 
 .Repartedor .ataque{
+    font-family: 'DescCarta', serif;
     position: absolute;
     right: 30%;
     bottom: 5%;
 }
 
 .Repartedor .defesa{
+    font-family: 'DescCarta', serif;
     position: absolute;
     right: 8%;      
     bottom: 5%;    

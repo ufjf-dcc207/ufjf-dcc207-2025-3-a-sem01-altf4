@@ -7,7 +7,14 @@
   background-color: rgb(235, 235, 235);
 
 }
-
+@font-face {
+  font-family: 'NomeCarta';
+  src: url(assets/font/Yu-Gi-Oh!\ Matrix\ Regular\ Small\ Caps\ 2.ttf);
+}
+@font-face {
+  font-family: 'DescCarta';
+  src: url(assets/font/Yu-Gi-Oh!\ ITC\ Stone\ Serif\ LT\ Italic.ttf);
+}
 .titulo h1 {
   text-align: center;
   margin: 40px 0;
