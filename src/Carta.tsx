@@ -1,18 +1,19 @@
 import './Carta.css'
 
-type CartaProps = {
-    nome: string;
-    ataque: number;
-    defesa: number;
-    descricao: string;
-}//Dependendo do tempo, tira a descrição
+interface CartaProps = {
+    nome?: string;
+    ataque?: number;
+    defesa?: number;
+    descricao?: string;
+}
 
-function Carta({nome,ataque,defesa,descricao}: CartaProps){
+export default function Carta({
+    nome='Nome',
+    ataque=1000,
+    defesa=1000,
+    descricao=''}: CartaProps){
     return (
         <div className="carta">
-            <div className="verso">
-            {/*se possivel fazer interação de ao clicar mostrar a capa da carta*/}
-            </div>
             <div className="frente">
                 <div className='Nome'>{nome}</div>
                 <div className='desc'>{descricao}</div>

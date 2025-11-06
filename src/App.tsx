@@ -1,5 +1,6 @@
 import './App.css'
 import Carta from './Carta'
+
 function App() {
   return (
     <>
